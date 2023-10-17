@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El-Postre-de-Klaus</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <header class="header">
+        <nav>
+            <div class="logo__container">
+                <a href="/">
+                    EL Postre De Klaus
+                </a>
+            </div>
+            <div class="menu__container" id="menu">
+                <ul>
+                    <li class="menu--close" id="close">
+                        <a href=""><img src="./images/close-white.svg" alt=""></a>
+                    </li>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="index.html#contact">Contacto</a></li>
+                    <!-- <li><a href="index.html#contact">Cotizar</a></li> -->
+                </ul>
+            </div>
+            <div class="menu__icon" id="open">
+                <img src="./images/menu-icon-white.png" alt="">
+            </div>
+        </nav>
+    </header>
+    <!-- main content -->
+    <main>
+        <section class="hero">
+            <div class="hero__container--bg-color">
+            </div>
+            <div class="hero__container--img">
+                <div class="hero--bg-mask">
+                </div>
+            </div>
+        </section>
+        <div class="hero__container--title">
+            <h1>El Postre De Klaus</h1>
+            <h2>
+                TOP Viajes
+                ¡Descubre el Mundo con TOP Viajes: Tu Pasaporte a Experiencias Inolvidables!</h2>
+            <a href="index.html#contact">COTIZA AHORA</a>
+        </div>
+        <section class="benefits" id="benefits">
+            <div class="benefits__title-container">
+                <h2>TU EXPERIENCIA PERSONALIZADA</h2>
+                <h3>Creando Recuerdos Duraderos y Conexiones Especiales</h3>
+                <p>Nuestra pasión por los detalles y nuestro compromiso con la excelencia nos distinguen. Cuando eliges viajar con nosotros, eliges la comodidad de contar con un equipo de expertos dedicados a hacer realidad tus deseos de viaje, desde la concepción hasta el último recuerdo.</p>
+                <a href="">Ponte en Contacto</a>
+            </div>
+            <div class="benefits__img-container">
+                <img src="./images/pastel-eventos.jpeg" alt="">
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="services__title-container">
+                <h2>EXPLORA EL MUNDO CON TOP VIAJES</h2>
+                <h3>Descubre la Magia de la Vida a Través de la Exploración del Mundo</h3>
+                <p>TOP Viajes, sabemos que cada viaje es especial. Nuestro objetivo es entender tus deseos y necesidades para crear un itinerario personalizado que se ajuste a ti como un guante. Tu viaje soñado comienza con nosotros.</p>
+            </div>
+            <div class="services__images-container">
+                <div class="services__card-container">
+                    <figure><img src="./images/chocolates.webp" alt=""></figure>
+                    <div class="card__title">
+                        <h3>Brownie San Valentín</h3>
+                        <span>></span>
+                    </div>
+                </div>
+                <div href="./service-2.html" class="services__card-container">
+                    <figure><img src="./images/petits-dulces.jpeg" alt=""></figure>
+                    <div class="card__title">
+                        <h3>Petits Dulces</h3>
+                        <span>></span>
+                    </div>
+                </div>
+                <div href="./service-3.html" class="services__card-container">
+                    <figure><img src="./images/cupcake-limon.jpeg" alt=""></figure>
+                    <div class="card__title">
+                        <h3>Cupcake Limón</h3>
+                        <span>></span>
+                    </div>
+                </div>
+                <div href="./service-3.html" class="services__card-container">
+                    <figure><img src="./images/cheesecake-chocolate.jpeg" alt=""></figure>
+                    <div class="card__title">
+                        <h3>Cheesecake de Chocolate</h3>
+                        <span>></span>
+                    </div>
+                </div>
+                <div href="./service-3.html" class="services__card-container">
+                    <figure><img src="./images/pastel-zanahoria.jpeg" alt=""></figure>
+                    <div class="card__title">
+                        <h3>Pastel de Zanahoria</h3>
+                        <span>></span>
+                    </div>
+                </div>
+                <div href="./service-3.html" class="services__card-container">
+                    <figure><img src="./images/pastel-frutos.jpeg" alt=""></figure>
+                    <div class="card__title">
+                        <h3>Pastel de Frutos Rojos</h3>
+                        <span>></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact__form-container">
+                <h2>PLANIFICACIÓN SIN ESTRÉS</h2>
+                <h3>Tu Próxima Aventura Comienza Aquí</h3>
+                <p>Tu viaje de ensueño está a solo un paso de distancia. Descubre itinerarios personalizados que se adaptan perfectamente a tus gustos y deseos.</p>
+                
+                <form class="contact__form" id="miFormulario">
+
+                    <label for="nombre">
+                        Nombre <span>*</span>   
+                    </label>
+                    <input type="text" id="nombre" name="nombre" 
+                    placeholder="Ingresa tu nombre..." required
+                    autocomplete="name">
+                        
+                    <label for="email">
+                        Correo Electrónico <span>*</span>
+                    </label>
+                    <input type="email" id="email" name="email" 
+                    placeholder="Ingresa tu dirección de correo electrónico..." required autocomplete="email">
+
+                    <label for="telefono">
+                        Teléfono Celular <span>*</span>
+                    </label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu número de celular..." 
+                    required 
+                    autocomplete="tel">
+                    
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                    <label for="miCheckbox">
+                        <input type="checkbox" id="miCheckbox" name="aceptoTerminos" value="si" required>
+                        Permito que este sitio web almacene mi información para que puedan responder a mi consulta. <span>*</span>
+                    </label>
+
+                    <input class="primary-button--submit" type="submit" value="COTIZAR AHORA">
+                </form>
+                <a href="mailto:whyjonpapayon@gmail.com" id="trucazo">mail</a>
+            </div>
+            <div class="contact__map-container">
+                <iframe
+                    width="100%"
+                    height="400"
+                    style="border:0"
+                    loading="lazy"
+                    allowfullscreen
+                    referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBHWv1HoNtdi5-XEF2fIvUeM1EEx3d5tFI
+                    &q=Frente+a+plaza+D'Lucca,+Av.+Sta.+Margarita+4140-Local+14,+Plaza+Fontana,+45136+Zapopan,+Jal./@20.7295932,-103.4354307,19.08z/data=!4m6!3m5!1s0x8428af476841550f:0x99667e1eb8023ced!8m2!3d20.7297091!4d-103.435395!16s%2Fg%2F11trrrwvj5?entry=ttu">
+                </iframe>
+                <div class="map__text-container">
+                    <h3>Planificación Sin Estrés</h3>
+                    <div>
+                        <img src="./telefono.png" alt="">
+                        <a href="tel:+523331678012">+523331678012</a>
+                    </div>
+                    <h3>Ubicación</h3>
+                    <div>
+                        <img src="./maps-and-location.png" alt="">
+                        <a href="https://www.google.com/maps/place/Frente+a+plaza+D'Lucca,+Av.+Sta.+Margarita+4140-Local+14,+Plaza+Fontana,+45136+Zapopan,+Jal./@20.7297091,-103.435395,17z/data=!3m1!4b1!4m6!3m5!1s0x8428af476841550f:0x99667e1eb8023ced!8m2!3d20.7297091!4d-103.435395!16s%2Fg%2F11trrrwvj5?entry=ttu">Av. Sta. Margarita 4140-Local 14
+                            Zapopan, JAL 45136 MX</a>
+                    </div>
+                    <h3>Horario</h3>
+                    <div>
+                        <p>Lunes-Viernes: 7:30am-7.00pm</p>
+                        <p>Sábado: 10.00am-2:00pm</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!-- <footer></footer> -->
+    <footer>
+        <h2>EL POSTRE DE KLAUS</h2>
+            <ul>
+                <li><a href="index.html#services">Servicios</a></li>
+                <!-- <li><a href="index.html#contact">Cotizar Ahora</a></li> -->
+                <li><a href="index.html#contact">Contacto</a></li>
+            </ul>
+        <p class="top">Hecho con amor por <a href="https://www.topmdigital.com/">Top Digital</a></p>
+    </footer>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
