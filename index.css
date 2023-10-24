@@ -374,14 +374,19 @@ nav {
 }
 @media screen and (max-width: 768px) {
     .info {
+        height: auto;
         flex-direction: column-reverse;
     }
     .info__img-container {
         width: 100%;
     }
+    .info__img-container img{
+        height: auto;
+    }
     .info__title-container {
         width: 100%;
-        margin: 20px;
+        padding: 20px;
+        margin: 0;
     }
 }
 .contact {
