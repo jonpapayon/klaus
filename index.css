@@ -130,11 +130,13 @@ nav {
 }
 /* main */
 .hero {
+    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    overflow: hidden;
 }
 .hero__container--bg-color{
     background-color: var(--primary);
@@ -199,17 +201,26 @@ nav {
     background-color: var(--soft-primary);
 }
 @media screen and (max-width: 768px) {
+    .hero {
+        height: 800px;
+    }
     .hero__container--title {
         top: 180px;
         left: 40px;
         padding-right: 180px;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 425px) {
+    .hero {
+        height: 600px;
+    }
     .hero__container--title {
         left: 20px;
         padding: 0;
         padding-right: 20px;
+    }
+    .hero__container--title h1 {
+        font-size: 36px;
     }
 }
 .benefits {
